@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 1170px; 
+  height: 809px; 
+   /* display: flex;   */
+  /* flex-direction: column;   */
+  /* justify-content: center;  */ */
+   /* align-items: center;  */
+
+}
+h2 {
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+ .block { 
+  display: flex; 
+  flex-wrap: wrap; 
+  flex-direction: row; 
+  justify-content: space-around; 
+  
+   
+}
+
+
+.macbook-1 {
+  border: solid 1px grey;
+  display: flex;
+  flex-wrap: wrap; 
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-around; */
+  align-content: stretch;
+
+  width: 270px;
+  height: 340px;
+  /* Возможно это нерпавильно и надо переделать и удалить */
+  /* margin-bottom: 30px;      */
+}
+img {
+  width: 236px;
+  height: 154px;
+  margin-top: 30px;
+  margin-bottom: 49px;
+}
+.apple {
+  font-weight: bold;
+}
+p {
+  color: red;
+  font-size: 16px;
+}
+.unprice {
+  color: #c1c8ce;
+  text-decoration: line-through;
+  margin-left: 9px;
+}
